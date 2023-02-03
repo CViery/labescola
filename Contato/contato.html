@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../imgs/favicon-16x16.png" type="image/x-icon">
     <title>Contato</title>
 </head>
 <body>
@@ -32,7 +33,24 @@
     <main id="pagcontato">
         <section id="formulario">
             <h2 class="inputs">Fale Conosco</h2>
-            <article class="inputs">
+            <form action="mailto:viery.guimaraes01@gmail.com" method="post">
+                <div class="inputs">
+                    <label class="labels" for="Nome">Nome</label>
+                    <input class="input" type="text">
+                </div>
+                <div class="inputs">
+                    <label class="labels" for="email">Email</label>
+                    <input class="input" type="email">    
+                </div>
+                <div class="inputs">
+                    <label class="labels" for="mensagem">Mensagem</label>
+                    <textarea class="input areatexto"></textarea>    
+                </div>
+                <div class="inputs">
+                   <button class="botaocontato" type="submit">Enviar</button>   
+                </div>
+            </form>
+            <!-- <article class="inputs">
                 <label class="labels" for="Nome">Nome</label>
                 <input class="input" type="text">
             </article>
@@ -46,7 +64,7 @@
             </article>
             <article class="inputs">
                 <button class="botaocontato"><a class="botaocontato" href="mailto:viery.guimaraes01@gmail.com ">Enviar</a></button>
-            </article>
+            </article> -->
         </section>
         <div class="whats"><a href="https://api.whatsapp.com/send?phone=11988453589"><img class="whatsapp" src="../imgs/logos_whatsapp-icon.png" alt="Whats"></a></div>
     </main>

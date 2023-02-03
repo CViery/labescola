@@ -41,6 +41,10 @@ body{
     background-color: orange;
     border: none;
     text-align: center;
+    margin-top: 1em;
+}
+.areatexto{
+    height: 5em;
 }
 .whats{
     position: fixed;
