@@ -8,7 +8,8 @@ body{
     gap: 1em;
     justify-content: center;
     justify-items: center;
-    padding: 0em 5em;
+    padding: 5em;
+    align-items: center;
     
     
 }
@@ -30,10 +31,11 @@ body{
 #botaopcurso{
     grid-column: 2/2;
     height: 4em;
-    width: 16em;
+    width: 25em;
     color: white;
     background-color: black;
     border-radius: 10px;
+    padding: 1em;
     font-family: 'Poppins', sans-serif;
 }
 #linkbotao{
