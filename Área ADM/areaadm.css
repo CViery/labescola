@@ -1,0 +1,164 @@
+body{
+    background-color: #F6C34A;
+}
+main{
+    display: flex;
+    border: 2px solid black;
+    gap: 10px;
+   
+}
+aside{
+    background-color: black;
+    height: 80vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    
+}
+#buscarInput{
+    border: none;
+    width: 15em;
+    height: 2em;
+    text-align: center;
+}
+#buscarBotao{
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    line-height: 0.5em;
+}
+#resultado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.menulateral{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+#buscarTurma{
+    width: 80vw;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+#matricula{
+    display: flex;
+    flex-direction: column;
+    gap: 05px;
+}
+.sectionmatricula{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10em;
+    font-family: 'Poppins', sans-serif;
+}
+.inputs-matricula{
+    width: 15em;
+    height: 1.5em;
+    border: none;
+    text-align: center;
+}
+.botao-matricula{
+    border: none;
+    height: 1.75em;
+    color: white;
+    background-color: black;
+}
+#estiloaluno{
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+}
+.imagemconfirm{
+    width: 2em;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    width: 18.75em;
+    height: 9em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+.name{
+    font-weight: 100;
+}
+#financeiro{
+    display: flex;
+   gap: 8em;
+   font-family: 'Poppins', sans-serif;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5em;
+    margin-top: 4em;
+    width: 30vw;
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border:none;
+    width: 10em;
+    height: 0.75em;
+}
+#verValor{
+    border: none;
+    height: 2em;
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+}
+#cursoTela{
+    background-color: white;
+}
+#valor{
+    display: flex;
+    flex-direction: column;
+    
+}
+#curso{
+    border: 1px dotted black;
+}
+#relatorio-aluno{
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+#formulario-aluno{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+#buscarInputNome{
+    border: none;
+    width: 12em;
+    height: 1.5em;
+}
+#buscarBotao{
+    width: 7em;
+    height: 1.5em;
+}
+.cardAluno{
+    background-color: white;
+    padding: 20px;
+    width: 18.75em;
+    height: 9em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}

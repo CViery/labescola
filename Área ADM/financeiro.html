@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index/header.css">
+    <link rel="stylesheet" href="../index/footer.css">
+    <link rel="stylesheet" href="../Área ADM/areaadm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <title>Financeiro Aluno</title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="logo">
+                <img src="../imgs/logo 1 (1).png" alt="LabEscola">
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a id="home" href="../index/index.html">Home</a></li>
+                    <li><a href="../cursos/cursos.html">Cursos</a></li>
+                    <li><a href="../Contato/contato.html">Contato</a></li>
+                    <li><a href="../Área ADM/areaadm.html">Área ADM</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <aside>
+            <div><a class="menulateral" href="../Área ADM/turmas.html">Turmas</a></div>
+            <div><a class="menulateral" href="../Área ADM/matriculas.html">Matriculas</a></div>
+            <div> <a class="menulateral" href="../Área ADM/financeiro.html">Financeiro Alunos</a></div>
+        </aside>
+        <section id="financeiro">
+            <article id="formulario">
+                <h2>Financeiro</h2>
+                <div id="inputs">
+                    <label for="Curso">Curso</label>
+                    <div class="cursoescolhido"><p id="cursoTela"></p></div>
+                    <button id="btnSelecionarCursos">Selecionar Cursos</button>
+                    <label for="numParcelas">Número de Parcelas</label>
+                    <input type="number" name="numParcelas" id="numParcelas">
+                    <div id="modal" style="display:none;">
+                        <div id="modalContent"></div>
+                </div>
+                <div id="valor">
+                    <button id="verValor">Ver Valor</button>
+                    <h3>Valor</h3>
+                    <p id="resultado"></p>
+                </div>
+                    
+            </article>
+            <article id="relatorio-aluno">
+                <h2>Relatorio Aluno</h2>
+                <div id="formulario-aluno">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="buscarInputNome">
+                    <div> <button id="buscarBotao">Buscar</button></div>
+                    <div id="cardTurma"></div>
+                </div>
+            </article>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="endereco"> 
+            <img id="logofooter" src="../imgs/Group 6.png" alt="">
+            <h2>Endereço</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.996414200129!2d-46.70069088542193!3d-23.568572267742784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57a7c7ace4c3%3A0x586759cab9b5c95a!2sR.%20Pais%20Leme%2C%20215%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005424-150!5e0!3m2!1spt-BR!2sbr!4v1675388270984!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             <!-- <a href="https://goo.gl/maps/VS7RW2XjFNp5Dowh6"><img class="mapa" src="../imgs/Rectangle 4 (1).png" alt="localizacao"></a> -->
+             <address><a href="https://goo.gl/maps/VS7RW2XjFNp5Dowh6"> R. Pais Leme, 215. CEP 05424-150 - Pinheiros</a></address>
+            </div>
+            <div class="linksfooter"> 
+            <h2>Links</h2>
+             <ul id="navfooter">
+              <li id="home"><a href="../index/index.html" class="linkfooteralterar">Home</a></li>
+              <li><a href="../cursos/cursos.html" class="linkfooteralterar">Cursos</a></li>
+              <li><a href="" class="linkfooteralterar">Blog</a></li>
+              <li><a href="" class="linkfooteralterar">Fale conosco</a></li>
+              <li><a href="">Termos e condições</a></li>
+              <li><a href="">Política de privacidade</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </div>
+            
+          <div class="redesociais">
+      
+            <h2 id="redes">Redes sociais</h2>
+            
+            
+            <a href=""><img src="../imgs/Vector (4).png" alt="twitter" class="imagens"></a>
+            <a href="https://www.linkedin.com/in/cristian-viery-guimar%C3%A3es-souza-21469411b/"><img src="../imgs/Vector (5).png" alt="linkdin" class="imagens"></a>
+            <a href="https://www.facebook.com/C.VieryGS"><img src="../imgs/Vector (6).png" alt="facebook" class="imagens"></a>
+            <a href="https://www.instagram.com/c_vierygs12/"><img src="../imgs/Vector (7).png" alt="intagram" class="imagens"></a>
+      </div>
+      
+            <div class="arearestrita">
+            
+              <h2 id="area">Área restrita</h2>
+              <ul id="navareaadm">
+                <li><a  href="../Área ADM/areaAdm.html" class="linksarea">Área administrativa</a></li>
+                <li class="linksarea"><a href=""> Espaço do aluno</a></li>
+            </ul>
+          </div>
+    </footer>    
+    <script src="../Área ADM/financeiro.js"></script>
+</body>
+</html>

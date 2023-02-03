@@ -1,0 +1,138 @@
+body{
+    background-color: #F6C34A;
+}
+#parte1{
+    background-image: url(../imgs/background-hero\ \(2\).png);
+    background-repeat: no-repeat;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#textos{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+#titulo{
+    width: 20em;
+    height: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    
+}
+#paragrafo1{
+width: 30em;
+height: 2em;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.8em;
+text-align: center
+}
+#botaohome{
+width: 24em;
+height: 5em;
+background: #0E0E0E;
+border-radius: 15px;
+}
+#linkbotao{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#parte2{
+    background-color: #0E0E0E;
+    height: 130vh;
+}
+#sobrenos{
+    color: white;
+    text-align: center;
+}
+.titulosobrenos{
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+font-size: 2.5em;
+line-height: 3.75em;
+}
+#sobre{
+    margin: 0em 6em;
+}
+.whats{
+    position: fixed;
+    left: 90.5%;
+    top:87%;
+    float: right;
+}
+.whatsapp{
+    width: 3.2em;
+}
+ .paragrafo2{
+    width: 100%;
+    height: 9em;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1em;
+    color: #FBFBFB;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+} 
+
+#titulodepoimento{
+    color: #FBFBFB;    
+    width: 17.31em;
+    height: 2em;
+    margin-left: 8em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+#alinhartitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#depoimentos{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    justify-content: center;
+}
+.cardpessoas{
+    background-color: #FBFBFB;
+    width: 19em;
+    height: 20em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+figcaption{
+    margin-bottom: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+.fotos{
+    width: 6.25em;
+    height: 6.25em;
+    /* margin: 3.75em; */
+    margin-bottom: 5em;
+}
+
+
+
+ 

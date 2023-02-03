@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    width: 100%;
+    height: 17vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  
+}
+
+#logo{
+    /* width: 349px; */
+    width: 1em;
+    height: 4em;
+    /* height: 75px; */
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+#home{
+    text-decoration: underline;
+
+}
+#cursos{
+    text-decoration: underline;
+}
+#contato{
+    text-decoration: underline;
+}
+#areaAdm{
+    text-decoration: underline;
+}
+ a{
+    text-decoration:none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+} 

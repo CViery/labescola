@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+  }
+  .mapa{
+    width: 350px;
+    height: 170px;
+  }
+  .linksfooter{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+  }
+  #navfooter{
+    text-decoration: none;
+    list-style: none;
+    padding-top: 30px;
+    line-height: 30px;
+  }
+  #redes{
+    padding-bottom: 30px;
+  }
+  #navareaadm{
+    text-decoration: none;
+    list-style: none;
+  }
+  #area{
+    padding-bottom: 30px;
+  }
+  #logofooter{
+    height: 2em;    
+  }
